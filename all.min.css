@@ -904,7 +904,10 @@ body,button {
 	left:1em
 }
 .page-42 h3 {
-	font-size:2em
+	font-size:2em;
+	position: absolute;
+    left: 20%;
+    z-index: 10000;
 }
 .page-43 {
 	background-color:#6b79ad
