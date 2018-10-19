@@ -269,7 +269,6 @@ body,button {
 }
 .flowtime h3 {
 	font-size:2.5rem;
-	line-height:3rem
 }
 .flowtime h4,.flowtime h5,.flowtime h6 {
 	font-size:1.75rem;
@@ -577,6 +576,7 @@ body,button {
 .bottom-text h3 {
 	height:10%;
 	padding-bottom:10%
+	font-size:18px;
 }
 .bottom-text img {
 	height:80%
@@ -943,14 +943,14 @@ body,button {
 	background-color:#fdcbca
 }
 .page-47 h3 {
-	position:absolute;
-	top:1em;
-	left:50%;
-	margin-left:-40%;
-	padding:0;
-	margin-top:0;
-	width:10em;
-	text-align:left
+	position: absolute;
+    top: 1em;
+    left: 50%;
+    margin-left: -40%;
+    padding: 0;
+    margin-top: 0;
+    text-align: left;
+    width: 100%;
 }
 .page-47 h3 span {
 	display:inline-block;
@@ -1003,7 +1003,7 @@ body,button {
 .page-52 h3 {
 	margin:0;
 	padding-top:.8em;
-	font-size:1.6em;
+	font-size:2.6em;
 	color:#4e0f3d
 }
 .page-53 {
