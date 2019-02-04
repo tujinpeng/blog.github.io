@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小猪佩奇 贺新年</title>
+    <link rel="stylesheet" href="./vendor/prism/prism.css">
+    <style id="styleTag"></style>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/demo.css"> -->
+    
+</head>
+
+<body>
+    <div class="mask">
+        <button>新年快乐,点我有惊喜</button>
+    </div>
+    <div class="code-wrapper">
+        <pre id="code"></pre>
+    </div>
+    <div class="preview-wrapper">
+        <div class="wrapper">
+            <div class="peppa-container">
+                <div class="peppa-head">
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                    <div class="face"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="cheek"></div>
+                    <div class="mouth">
+                        <div class="mouth-bottom"></div>
+                        <div class="mouth-middle"></div>
+                    </div>
+                    <div class="nose">
+                        <div class="nostril left"></div>
+                        <div class="nostril right"></div>
+                    </div>
+                </div>
+                <div class="peppa-body">
+                    <div class="body"></div>
+                    <div class="hand left"></div>
+                    <div class="hand right"></div>
+                    <div class="tail">
+                        <div class="tail-circle"></div>
+                    </div>
+                </div>
+                <div class="peppa-footer">
+                    <div class="foot left"></div>
+                    <div class="foot right"></div>
+                    <div class="shoes left"></div>
+                    <div class="shoes right"></div>
+                    <div class="peppa-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="actions">
+        <button data-speed="slow">慢速</button>
+        <button data-speed="normal" class="active">中速</button>
+        <button data-speed="fast">快速</button>
+    </div>
+    <div style="position: absolute;top: 35%;left: 40%;font-family: '微软雅黑';font-size: 50px;color: red">
+        小猪佩奇贺新年<br/>
+        祝叔叔阿姨、萱萱还有她弟<br/>
+        全家人在一起开开心心<br/>
+        快快乐乐，身体健康，猪事顺利 ！！！
+    </div>
+    <audio preload="" loop="loop" id="player" src="./Peppa.mp3"></audio>
+    <script src="./vendor/jquery.min.js"></script>
+    <script src="./vendor/prism/prism.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
